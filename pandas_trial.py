@@ -5,7 +5,8 @@ cars = {'Brand': ['Honda Civic','Toyota Corolla','Ford Focus','Audi A4'],
         }
 
 df = pd.DataFrame(cars, columns = ['Brand', 'Price'])
-
-print(df)
+print("Cars {}".format(df.columns.values))
+print("Price {}".format(df.values))
+# print(df)
 # import os
 # print(os.curdir)
